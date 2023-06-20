@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(48 36 65 / 1);
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 97px auto;
+}
+
+.card-1 {
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    width: 350px;
+    height: 300px;
+    background-color: #8e7efe;
+    cursor: pointer;
+}
+
+.card-2 {
+    position: absolute;
+    top: 8rem;
+    left: 24rem;
+    width: 350px;
+    height: 300px;
+    background-color: #c77bff;
+    cursor: pointer;
+}
+
+.card-3 {
+    position: absolute;
+    top: 8rem;
+    left: 45rem;
+    width: 350px;
+    height: 300px;
+    background-color: #ff74bc;
+    cursor: pointer;
+}
+
+h4 {
+    position: absolute;
+    top: 4rem;
+    left: 3rem;
+    color: #c6bafe;
+    font-weight: 600;
+}
+
+h2 {
+    position: absolute;
+    top: 5.5rem;
+    left: 3rem;
+    font-size: 21px;
+    color: white;
+}
+
+p {
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    max-width: 19ch;
+    color: white;
+}
+
+a {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    position: absolute;
+    bottom: 3rem;
+    left: 9rem;
+    color: white;
+}
+
+.card-2 p {
+    max-width: 22ch;
+}
+
+.card-2 i {
+    left: 8rem;
+}
+
+.card-3 p {
+    max-width: 22ch;
+}
+
+.card-3 i {
+    left: 11.5rem;
+}
+
